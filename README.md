@@ -1,14 +1,52 @@
 # Student Management System
 
-Full stack mini project using Python Flask and Next.js.
+A full-stack mini project built with Python (Flask) and Next.js.  
+The system allows users to manage student records through a simple and interactive interface.
 
-Features
-- Add student
+## Features
+- Add new students
 - View student list
-- Delete student
-- File based storage
+- Delete students
+- Data stored using file handling (JSON)
+- Interactive frontend UI
 
-Tech Stack
-- Python Flask
+## Tech Stack
+Frontend:
 - Next.js
 - Tailwind CSS
+
+Backend:
+- Python
+- Flask
+- Flask-CORS
+
+## Project Structure
+
+student-management-system
+│
+├── backend-student-managment-system
+│   ├── app
+│   ├── data
+│   └── run.py
+│
+└── frontend-student-managment-system
+    ├── app
+    ├── components
+    └── services
+
+## How to Run
+
+### Backend
+cd backend-student-managment-system  
+python run.py
+
+### Frontend
+cd frontend-student-managment-system  
+npm install  
+npm run dev
+
+Open in browser:
+http://localhost:3000
+
+## Author
+Tahirsultan
